@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Kamień - Papier - Nożyce</h1>
+
+    <div class="choices">
+
+        <button onclick="playGame('Kamień')">👊</button>
+        <button onclick="playGame('Papier')">✋</button>
+        <button onclick="playGame('Nożyce')">✌️</button>
+
+    </div>
+
+    <div id="playerDisplay">GRACZ:</div>
+    <div id="computerDisplay">KOMPUTER:</div>
+    <div id="resultDisplay"></div>
+
+    <div class="scoreDisplay">Wynik gracza:
+        <span id="playerScoreDisplay">0</span>
+    </div>
+
+    <div class="scoreDisplay">Wynik komputera:
+        <span id="computerScoreDisplay">0</span>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
